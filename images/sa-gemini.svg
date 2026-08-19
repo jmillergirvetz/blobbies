@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <style>
+      .cap-top { fill: #3366FF; }
+      .cap-base { fill: #1E40AF; }
+      .tassel { fill: #FFC033; stroke: #FFC033; }
+      .cloak { fill: #3366FF; }
+      .sleeve { fill: #1E40AF; }
+      .diploma { fill: #F8FAFC; stroke: #94A3B8; stroke-width: 1.5; }
+      .ribbon { fill: #FFC033; }
+      .text-sa { fill: #FFC033; font-family: Arial, sans-serif; font-weight: bold; }
+    </style>
+  </defs>
+
+  <!-- Cloak Body (straightened, up and down) -->
+  <path class="cloak" d="M 46 55 Q 44 90 40 120 L 88 120 Q 84 90 82 55 Z" />
+
+  <!-- Head (Blobby) -->
+  <circle cx="62" cy="45" r="28" fill="#ce009f"/>
+  <circle cx="66" cy="42" r="28" fill="#ff569b"/>
+
+  <!-- Face -->
+  <circle cx="56" cy="40" r="3.5" fill="#351624"/>
+  <circle cx="76" cy="40" r="3.5" fill="#351624"/>
+  <path d="M 62 46 Q 66 52 70 46" fill="none" stroke="#351624" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Sleeves / Arms -->
+  <path class="sleeve" d="M 46 60 Q 25 80 40 95 Q 45 85 55 70 Z" />
+  <path class="sleeve" d="M 82 60 Q 103 80 88 95 Q 83 85 73 70 Z" />
+  
+  <!-- Hands (Blobby pink) -->
+  <circle cx="43" cy="92" r="6" fill="#ff569b"/>
+  <circle cx="85" cy="92" r="6" fill="#ff569b"/>
+
+  <!-- Diploma Group -->
+  <g transform="rotate(-10 64 92)">
+    <rect class="diploma" x="35" y="86" width="58" height="12" rx="2" />
+    <rect class="ribbon" x="60" y="86" width="6" height="12" />
+    <!-- Tied Ribbon Bow -->
+    <polygon class="ribbon" points="63,86 58,82 59,88" />
+    <polygon class="ribbon" points="63,86 68,82 67,88" />
+    <circle class="ribbon" cx="63" cy="86" r="1.5" />
+    <!-- SA on Diploma -->
+    <text class="text-sa" x="78" y="94" font-size="7px" text-anchor="middle">SA</text>
+  </g>
+
+  <!-- Graduation Cap -->
+  <path class="cap-base" d="M 52 18 v 10 q 12 8 24 0 v -10 Z" />
+  <path class="cap-top" d="M 66 5 L 94 15 L 66 25 L 38 15 Z" />
+  
+  <!-- SA on Cap (Between corner and center) -->
+  <text class="text-sa" x="55" y="17" font-size="8px" text-anchor="middle">SA</text>
+
+  <!-- Tassel -->
+  <circle class="tassel" cx="66" cy="15" r="2" />
+  <path class="tassel" d="M 66 15 Q 80 18 84 30" stroke-width="1.5" fill="none"/>
+  <polygon class="tassel" points="83,30 85,30 86,36 82,36" stroke="none" />
+</svg>
