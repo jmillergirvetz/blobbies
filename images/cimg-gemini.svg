@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none">
+  <!-- Torso (Light Grey Jacket Base with Rounded Shoulders) -->
+  <rect x="42" y="38" width="44" height="48" rx="8" fill="#E8ECEF" />
+
+  <!-- White Shirt V-neck -->
+  <path d="M 52 38 L 64 52 L 76 38 Z" fill="#FFFFFF" />
+
+  <!-- Navy Tie -->
+  <path d="M 62 42 L 66 42 L 68 65 L 64 70 L 60 65 Z" fill="#1A2A3A" />
+
+  <!-- Left Arm (Outlined for visibility) -->
+  <path d="M 42 42 Q 30 60 52 76 L 56 68 Q 38 56 48 38 Z" fill="#E8ECEF" stroke="#ADB5BD" stroke-width="1.5" stroke-linejoin="round" />
+  
+  <!-- Left Hand -->
+  <circle cx="54" cy="74" r="4" fill="#F37021" />
+
+  <!-- Small Branded Calculator -->
+  <rect x="56" y="58" width="16" height="22" rx="2" fill="#222222" />
+  <!-- Screen -->
+  <rect x="58" y="61" width="12" height="4" rx="1" fill="#AACCFF" />
+  <!-- Numbers on screen -->
+  <text x="64" y="64.5" font-family="monospace" font-size="4" fill="#000000" text-anchor="middle">$100</text>
+  <!-- CIM Lettering -->
+  <text x="64" y="70" font-family="Arial, sans-serif" font-size="4" font-weight="bold" fill="#F37021" text-anchor="middle">CIM</text>
+  <!-- Buttons -->
+  <rect x="58" y="73" width="2" height="2" fill="#FFFFFF" />
+  <rect x="63" y="73" width="2" height="2" fill="#FFFFFF" />
+  <rect x="68" y="73" width="2" height="2" fill="#FFFFFF" />
+  <rect x="58" y="76" width="2" height="2" fill="#FFFFFF" />
+  <rect x="63" y="76" width="2" height="2" fill="#FFFFFF" />
+  <rect x="68" y="76" width="2" height="2" fill="#FFFFFF" />
+
+  <!-- Right Arm (Shifted down to side of calculator) -->
+  <path d="M 86 42 Q 100 60 77 74 L 72 68 Q 90 52 80 38 Z" fill="#E8ECEF" stroke="#ADB5BD" stroke-width="1.5" stroke-linejoin="round" />
+  
+  <!-- Right Hand (Shifted to the side) -->
+  <circle cx="75" cy="72" r="3.5" fill="#F37021" />
+
+  <!-- Legs (Light Grey Pants) -->
+  <rect x="48" y="86" width="12" height="30" fill="#E8ECEF" />
+  <rect x="68" y="86" width="12" height="30" fill="#E8ECEF" />
+
+  <!-- Shoes (Dark Grey) -->
+  <rect x="44" y="116" width="16" height="8" rx="4" fill="#555555" />
+  <rect x="68" y="116" width="16" height="8" rx="4" fill="#555555" />
+
+  <!-- Head (Smaller Orange Circle) -->
+  <circle cx="64" cy="22" r="16" fill="#F37021" />
+
+  <!-- Face (Inverted) -->
+  <circle cx="58" cy="20" r="2.5" fill="#FFFFFF" />
+  <circle cx="70" cy="20" r="2.5" fill="#FFFFFF" />
+  <path d="M 61 24 Q 64 28 67 24" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" fill="none" />
+</svg>
